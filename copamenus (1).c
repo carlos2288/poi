@@ -23,7 +23,7 @@ char menu_principal()
 }
 char submenu()
 {
-    printf("\n\n**************************\n");
+    
     printf("*        Grupos          *\n");
     printf("**************************\n");
     printf("Digite a letra do grupo: ");
