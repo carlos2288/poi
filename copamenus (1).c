@@ -7,6 +7,7 @@
 
 char menu_principal()
 {
+	printf("hora de chorar\n");
     printf("\n**************************\n");
     printf("*     Menu Principal     *\n");
     printf("**************************\n");
@@ -1924,7 +1925,7 @@ int main()
                     if(chave == 0)
                     {
                     mostre_grupo(32,times);
-                    printf("Digite o codigo dos classificados em ordem de posiçao e alfabetica dos grupos");
+                    printf("Digite o codigo dos classificados em ordem de posiÃ§ao e alfabetica dos grupos");
                     classificatoria(16,oitavas,times2);
                     chave = 1;
                     fp = fopen("oitavas.arq","wb");
@@ -1957,7 +1958,7 @@ int main()
                     if(chave2 == 0)
                     {
                     mostre_grupo(32,times);
-                    printf("Digite o codigo dos classificados em ordem de posiçao e alfabetica dos grupos");
+                    printf("Digite o codigo dos classificados em ordem de posiÃ§ao e alfabetica dos grupos");
                     classificatoria(8,quartas,times2);
                     chave2 = 1;
                     fp = fopen("quartas.arq","wb");
@@ -1990,7 +1991,7 @@ int main()
                     if(chave3 == 0)
                     {
                     mostre_grupo(32,times);
-                    printf("Digite o codigo dos classificados em ordem de posiçao e alfabetica dos grupos");
+                    printf("Digite o codigo dos classificados em ordem de posiÃ§ao e alfabetica dos grupos");
                     classificatoria(4,semi,times2);
                     chave3 = 1;
                     fp = fopen("semi.arq","wb");
@@ -2017,7 +2018,7 @@ int main()
                     if(chave4 == 0)
                     {
                     mostre_grupo(32,times);
-                    printf("Digite o codigo dos classificados em ordem de posiçao e alfabetica dos grupos");
+                    printf("Digite o codigo dos classificados em ordem de posiÃ§ao e alfabetica dos grupos");
                     classificatoria(2,terceiro,times2);
                     chave4 = 1;
                     fp = fopen("terceiro.arq","wb");
@@ -2050,7 +2051,7 @@ int main()
                     if(chave5 == 0)
                     {
                     mostre_grupo(32,times);
-                    printf("Digite o codigo dos classificados em ordem de posiçao e alfabetica dos grupos");
+                    printf("Digite o codigo dos classificados em ordem de posiÃ§ao e alfabetica dos grupos");
                     classificatoria(2,fin,times2);
                     chave5 = 1;
                     fp = fopen("final.arq","wb");
