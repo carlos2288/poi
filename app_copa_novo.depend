@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1528719363 source:c:\users\carlo\desktop\wallpaper\app_copa_novo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"time.h"
+
+1528719369 c:\users\carlo\desktop\wallpaper\app_copa_novo\time.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1528719258 source:c:\users\alunos\desktop\app_copa_novo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"time.h"
+
+1528685146 c:\users\alunos\desktop\app_copa_novo\time.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
